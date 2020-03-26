@@ -113,3 +113,13 @@ nav .profile-link a{
     font-size: 16px;
     color: black;
 }
+.blogs-main{
+    display: grid;
+}
+.blogs-news-container{
+    background: #e6e9ed;
+    padding: 0 50px 40px;
+}
+.blogs-main-new{
+    
+}

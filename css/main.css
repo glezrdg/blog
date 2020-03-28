@@ -102,6 +102,10 @@ nav .profile-link a{
     font-family: 'Roboto Mono', monospace;
     font-weight: 600;
 }
+nav .profile-link a:hover{
+    color: white;
+    background-color: #47cfac;
+}
 .home-container{
     width: 100%;
     height: 100%;
@@ -177,8 +181,7 @@ nav .profile-link a{
     margin-bottom: 35px;
 }
 .blogs-posts-container{
-    padding: 0 50px 40px;
-    
+    padding: 0 50px 40px;  
 }
 .blogs-posts-container h3{
     border-bottom: 1px solid #cdd2da;
@@ -226,6 +229,55 @@ footer{
     border-bottom: 1px solid #cdd2da;
     padding-bottom: 20px;
 }
+.blogpost-main-container article{
+    text-align: justify;
+}
 .blogpost-main-container article h1{
     font-size: 2.2em;
+}
+.profile-main-new{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 30px;
+}
+.profile-img-container{
+    
+}
+.profile-img-container img{
+    width: 100%;
+    
+    border-radius: 8px;
+}
+.profile-info-container h1{
+    font-size: 2.3em;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.profile-info-container p{
+    text-align: justify;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-bottom: 35px;
+}
+.profile-container{
+    background: #e6e9ed;
+    padding: 40px 50px ;
+}
+.profile-projects-container{
+    padding: 0 50px 40px;  
+}
+.profile-projects-container h3{
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+    text-align: center;
+    grid-column: 2;
+}
+.profile-projects-container .project-container{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+.profile-projects-container .project-container p{
+    margin-bottom: 35px;
 }

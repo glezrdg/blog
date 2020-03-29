@@ -134,26 +134,26 @@ nav .profile-link a:hover{
     color: blanchedalmond;
 }
 
-.home-container .home-buttom{
-    
+.home-container .home-buttom {
     background-color: #47cfac; /* Green */
     border: none;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    height: 50px;
+    height: auto;
     box-shadow: -11px 13px 36px -12px rgba(0,0,0,1);
     display: grid;
     align-self: center;
     border-radius: 2px;
     margin-top: 15%;
-}
-
-.home-buttom a{
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 16px;
     color: black;
+}
+.home-container .home-buttom:hover{
+    background-color: black;
+    color: #47cfac;
 }
 .blogs-main{
     display: grid;
@@ -196,11 +196,16 @@ nav .profile-link a:hover{
     font-size: 12px;
     border-radius: 2px;
 }
+.leer-mas:hover{
+    background-color: #47cfac;
+    color: #cdd2da;
+}
 .blogs-posts-container .post-container{
     display: inline-block;
     padding-left: 10px;
     max-width: 30%;
     margin-bottom: 50px;
+    text-align: center;
 }
 .blogs-posts-container .post-container p {
     margin-bottom: 35px;
@@ -272,12 +277,17 @@ footer{
     text-align: center;
     grid-column: 2;
 }
-.profile-projects-container .project-container{
-    display: inline-block;
-    padding-left: 10px;
-    max-width: 30%;
-    margin-bottom: 50px;
+
+.projects-main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
 }
 .profile-projects-container .project-container p{
     margin-bottom: 35px;
+}
+.project-container p{
+    
+    text-align: justify;
+    padding: 0 5px;
 }
